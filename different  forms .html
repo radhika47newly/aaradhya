@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment form</title>
+</head>
+
+<body>
+    <!-- <form action=""></form>
+    <!-- <h1>Payment Form</h1> -->
+    <!-- <h2>Contact Information</h2>               -->
+    <p> First Name: <input type="text" name=""></p>
+    <p>Last Name:<input type="text" name=""></p>
+    <br>
+    <br>
+    <!-- <input type="submit" value="submit"> -->
+    <select name="location">
+        <option value="">----SELECT-----</option>
+        <option value="mumbai">Mumbai</option>
+        <option value="Bangalore">Bangalore</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Hyderabad">Hydrabad</option>
+    </select>
+    <br>
+    <br>
+    <br>
+    <input type="submit">
+    </form> -->
+
+
+
+    <!-- PAYMENT form -->
+
+
+    <form>
+        <h1>Payment Form </h1>
+        <h2>Contact Information</h2>
+        <p> *Name: <input type="text" name="name" required></p>
+        <fieldset>
+            <legend>Gender</legend>
+            <p>
+                Male <input type="radio" name="Gender" required id="male">
+                Female <input type="radio" name="Gender" id="female">
+            </p>
+        </fieldset>
+        <p>Address: <textarea name="address" required id="address" cols="80" rows="10"></textarea></p>
+        <p>Email: <input type="email" name="email" required id="email" required></p>
+        <p>Pincode: <input type="number" name="pincode" required id="pincode">
+        <h2>Payment information</h2>
+        <p>Card Type:
+            <select name="card_type" required id="card_type">
+                <option value="">------select a Card type</option>
+                <option value="visa">visa</option>
+                <option value="rupay">rupay</option>
+                <option value="mastercard">mastercard</option>
+            </select>
+        </p>
+        <p>
+            Card number <input type="number" name="card_number" required id="card_number">
+
+        </p>
+        <p>
+            Expiration Date: <input type="date" name="exp_date" required id="exp_date">
+
+        </p>
+        <input type="submit" value="Pay now">
+        </p>
+    </form>
+    <!-- STUDENT FORM -->
+    <form>
+        <h1><em> Student Registration Form</em></h1>
+        <h5>Fill out the form carefully for Registration</h5>
+        <br>
+
+        <h3>Student Name</h3>
+        <p>*Name: <input type="text" name="name" required id="name"> Middle Name: <input type="text" name="middle name"
+                id="middle name"> Last name: <input type="text"></p>
+        <h2><strong>*Gender:</strong></h2>
+        <p>
+            Male: <input type="radio" name="gender" id="male">
+            Female: <input type="radio" name="gender" id="female">
+            Others: <input type="radio" name="gender" id="Others">
+        <h3>Date Of Birth</h3>
+        <p>* DOB: <input type="date" name="dob" required id="dob"></p>
+        <h3>Email:</h3>
+        <p>*Email: <input type="email" name="email" required id="email"></p>
+        <h3>Password:</h3>
+        <p>*Password: <input type="password" name="pwd" required id="pwd"></p>
+        <p>Re-EnterPassword: <input type="password" name="pwd" id="pwd"></p>
+        <h3>Contact Detail:</h3>
+        <p> Mobile no.: <input type="number" name="mobileno." id="mobileno."></p>
+        <p>Address: <textarea name="address" id="address" cols="30" rows="10"></textarea></p>
+        <!-- <p>placeholder="enter your address"</p> -->
+
+        <h3>Area:</h3>
+        <p>city: <input type="text" name="city" id="city"></p>
+        <p>country: <input type="text" name="country" id="country"></p>
+        <p> *Pincode: <input type="number" name="pincode" required id="pincode"></p>
+        <h3>Course Applied For:</h3>
+
+        <select name="course_type" required id="course_type">
+            <option value="">--------Select a course type</option>
+            <option value="BCA"> BCA</option>
+            <option value="BSCIT">BSCIT</option>
+            <option value="MCA">MCA</option>
+            <option value="MSCIT">MSCIT</option>
+            <option value="B.COM">B.COM</option>   
+
+        </select>    
+
+
+        <p>select fav colour<input type="color" name=c1>  </p>
+        <p> languages </p>
+        <p> <input type="checkbox" name="c1" value="eng">English </p>
+        <p> <input type="checkbox" name="c2" value="hen">Hindi  </p>
+        <p> <input type="checkbox" name="c3" value="oth">others  </p>
+        <p>Week: <input type="week" name="w1">  </p>
+        <p>Month: <input type="month" name="m1">   </p>
+        <p>Year: <input type="year" name="y1">  </p>
+        <p>image: <input type="image" name="i1">  </p>
+        <p> comments :<textarea name="ta" rows="5" cols="50"></textarea>  </p>
+        <p> Contact: <input type="tel" name=""></p>
+        <p> Experience : <input type="range" name="r1">  </p>
+        <p> Enter url <input type="url" name="u1">  </p>
+        <p> enter time: <input type="time" name="ti1">  </p>   
+        <p>  <input type="submit" value="Submit  Now">     
+        </p>
+    
+
+    </form>
+</body>
+</html>
